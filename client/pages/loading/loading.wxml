@@ -1,0 +1,11 @@
+<view class='bg' style='height:{{height}}px;'  >
+  <view class='loading-container' >
+    <view class="right_fbox_num">{{time}}</view>
+      <image class="loading-image" style="" mode="aspectFit" src="/pages/images/loading.png"></image> 
+  </view>
+<!-- style="background: url('/pages/images/loading.png') no-repeat center center fixed;background-size: 100%;height:{{height}}px;"  -->
+  <view class="enter-container">
+    <button id="bt" class="enter-button" type='primary' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 开启
+    </button>
+  </view>
+</view>

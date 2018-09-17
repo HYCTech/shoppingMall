@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<!--引入wxml文件  -->
+<import src="../common/orderPage.wxml"/>
+<view class="container" disable-scroll="true">
+  <!--模板列表-->
+  <swiper class="swiper" style='height:{{height}}px' current="{{currentPage}} 
+  bindchange="turnTitle">
+    <swiper-item id="orderPage">
+      <template is="orderPage" data="{{menu,selected,howMuch,cost,pullBar}}"/>
+    </swiper-item>
+  </swiper>
+</view>

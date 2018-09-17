@@ -1,0 +1,44 @@
+<view class="container">
+
+  <view class="profile-info" bindtap="goLogin">
+
+    <view wx:if="{{hasUserInfo}}">
+      <image class="avatar" id="bt" type='primary' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view wx:elif="{{!hasUserInfo}}">
+      <!-- <button id="bt" class="avatar" style="background: url('/pages/images/user-login.png') no-repeat center;" type='primary' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> </button> -->
+
+      <button   id="bt"    type='primary' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"   plain='true'>
+        <image class="avatar-img"  src='/pages/images/user-login.png'></image>
+      </button>
+
+    </view>
+
+    <view class="info">
+      <text wx:if="{{hasUserInfo}}" class="name">{{userInfo.nickName}}</text>
+      <text wx:elif="{{!hasUserInfo}}" class="name"> 小明</text>
+    </view>
+  </view>
+
+  <!-- <view class="header">
+    <view wx:if="{{!hasUserInfo && canIUse}}">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="/pages/images/ic_menu_me_nor.png" mode="cover"></image>
+      <text class="userinfo-nickname">登录</text>
+    </view>
+    <view  wx:else> 
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+     </view>
+   
+  </view> -->
+
+  <view class="content">
+
+    <!-- <view class="coupon">红包</view> -->
+    <view class="address"> 我的地址</view>
+    <view class="tel"> 客服电话: 暂无</view>
+    <!-- <view class="signOut">退出账号</view> -->
+  </view>
+
+
+</view>

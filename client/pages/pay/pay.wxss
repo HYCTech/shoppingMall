@@ -1,0 +1,394 @@
+/* pages/pay/pay.wxss */
+
+page {
+  height: 100%;
+  background: #fff;
+}
+
+.add-address .add-form {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.add-address .form-item {
+  height: 116rpx;
+  padding-left: 31.25rpx;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  padding-right: 31.25rpx;
+}
+
+.add-address .input {
+  flex: 1;
+  height: 44rpx;
+  line-height: 44rpx;
+  overflow: hidden;
+}
+
+.add-address .form-default {
+  border-bottom: 1px solid #d9d9d9;
+  height: 96rpx;
+  background: #fafafa;
+  padding-top: 28rpx;
+  font-size: 28rpx;
+}
+
+.default-input {
+  margin: 0 auto;
+  display: block;
+  width: 240rpx;
+  height: 40rpx;
+  padding-left: 50rpx;
+  line-height: 40rpx;
+  background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/checkbox-sed825af9d3-a6b8540d42.png) 1rpx -448rpx no-repeat;
+  background-size: 38rpx 486rpx;
+  font-size: 28rpx;
+}
+
+.default-input.selected {
+  background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/checkbox-sed825af9d3-a6b8540d42.png) 0 -192rpx no-repeat;
+  background-size: 38rpx 486rpx;
+}
+
+.add-address .btns {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+}
+
+.add-address .cannel, .add-address .save {
+  flex: 1;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.add-address .cannel {
+  background: #9d9d9d;
+}
+
+.add-address .save {
+  background: #ffd161;
+}
+
+.region-select {
+  width: 100%;
+  height: 600rpx;
+  background: #fff;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  bottom: 0;
+}
+
+.region-select .hd {
+  height: 108rpx;
+  width: 100%;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 46rpx 30rpx 0 30rpx;
+}
+
+.region-select .region-selected {
+  float: left;
+  height: 60rpx;
+  display: flex;
+}
+
+.region-select .region-selected .item {
+  max-width: 140rpx;
+  margin-right: 30rpx;
+  text-align: left;
+  line-height: 60rpx;
+  height: 100%;
+  color: #333;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.region-select .region-selected .item.disabled {
+  color: #999;
+}
+
+.region-select .region-selected .item.selected {
+  color: #b4282d;
+}
+
+.region-select .done {
+  float: right;
+  height: 60rpx;
+  width: 60rpx;
+  border: none;
+  background: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.region-select .done.disabled {
+  color: #999;
+}
+
+.region-select .bd {
+  height: 492rpx;
+  width: 100%;
+  padding: 0 30rpx;
+}
+
+.region-select .region-list {
+  height: auto;
+  overflow: scroll;
+}
+
+.region-select .region-list .item {
+  width: 100%;
+  height: 104rpx;
+  line-height: 104rpx;
+  text-align: left;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.region-select .region-list .item.selected {
+  color: #b4282d;
+}
+
+.bg-mask {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+
+/* directory.wxss */
+
+.container {
+  display: block;
+  background-color: #fafafa;
+  padding: 0;
+}
+
+.top-menu {
+  display: flex;
+  position: fixed;
+  height: 80rpx;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 2rpx solid #ddd;
+  border-bottom: 2rpx solid #ddd;
+  font-size: 11pt;
+  color: #bdbdbd;
+}
+
+.line {
+  width: 2rpx;
+  height: 100%;
+  background-color: #ddd;
+}
+
+.state-menu {
+  display: flex;
+  position: fixed;
+  left: 0;
+  height: 200rpx;
+  top: 80rpx;
+  width: 100%;
+  z-index: 9;
+  background-color: #fff;
+  flex-direction: row;
+  border-bottom: 2rpx solid #ddd;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hidden.state-menu {
+  transform: translateY(-200rpx);
+  transition: all 0.4s ease;
+  visibility: hidden;
+}
+
+.show.state-menu {
+  transform: translateY(0);
+  transition: all 0.4s ease;
+  visibility: visible;
+}
+
+.dialog-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.state-item {
+  width: 20%;
+  height: 70rpx;
+  font-size: 11pt;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  border: 2rpx solid #ddd;
+}
+
+.border.state-item {
+  border: 2rpx solid #c4245c;
+}
+
+.date {
+  min-width: 40%;
+  display: flex;
+  font-size: 11pt;
+  color: #bdbdbd;
+  align-items: center;
+}
+
+.date-btn {
+  min-width: 80%;
+  font-size: 12pt;
+  background-color: #c4245c;
+  color: #fff;
+  position: fixed;
+}
+
+.picker-view {
+  width: 100%;
+  display: flex;
+  z-index: 12;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  height: 40vh;
+}
+
+.picker-item {
+  line-height: 70rpx;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  text-align: center;
+}
+
+.add-address .btns {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+}
+
+.add-address .cannel, .add-address .save {
+  flex: 1;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+
+.add-address .cannel {
+  background: #333;
+}
+
+.add-address .save {
+  background: #ffd161;
+}
+
+.table {
+  border: 0px solid darkgray;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.td {
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-w {
+  background: snow;
+}
+
+.bg-g {
+  background: #e6f3f9;
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  background: rgba(238, 233, 231, 0.021);
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.order-content-restaurantImg {
+  width: 120rpx;
+  height: 120rpx;
+  background: red;
+}
+
+.order-content-info-price {
+  text-align: center;
+  color: red;
+  width: 33%;
+}
+
+.th-z {
+  width: 100%;
+  justify-content: center;
+  background: rgba(238, 233, 231, 0.021);
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+
+.total-price{
+  color: red;
+}
+
+.col{
+  color: rgb(151, 150, 149);
+  font-size: 36rpx;
+
+}
