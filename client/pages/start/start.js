@@ -18,8 +18,8 @@ Page({
         url: '/pages/images/start-01.png'
       },
       {
-        name: '酒水冷饮',
-        url: '/pages/images/start-02.png',
+        name: '母 婴',
+        url: '/pages/images/start-12.png',
         isSplot: true
       },
       {
@@ -57,13 +57,9 @@ Page({
         url: '/pages/images/start-10.png'
       },
       {
-        name: '进口商品',
+        name: '零食',
         url: '/pages/images/start-11.png', 
         isSplot: true
-      },
-      {
-        name: '母 婴',
-        url: '/pages/images/start-12.png'
       } 
     ]
   },

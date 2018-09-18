@@ -42,55 +42,23 @@ Page({
             "rating": 3,
             "price": 32,
             "numb": 0
-          },
-          {
-            "name": "红椒",
-            "src": "/pages/images/im01-05.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 32,
-            "numb": 0
-          },
-          {
-            "name": "西红柿",
-            "src": "/pages/images/im01-06.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 32,
-            "numb": 0
-          }
+          } 
         ]
-      },
+    },
       {
-        "typeName": "酒水冷饮",
+        "typeName": "母 婴",
         "menuContent": [{
-            "name": "红酒",
-          "src": "/pages/images/alcohol-01.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 9,
-            "numb": 0
-          },
-          {
-            "name": "冰激凌",
-            "src": "/pages/images/alcohol-02.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 21,
-            "numb": 0
-          }
-        ]
-      },
-      {
-        "typeName": "肉鱼禽蛋",
-        "menuContent": [{
-          "name": "小鱼",
-          "src": "/pages/images/fish-01.jpg",
+          "name": "奶瓶",
+          "src": "/pages/images/feeder-01.jpg",
           "sales": 22,
           "rating": 3,
           "price": 4,
           "numb": 0
-        }, {
+        }]
+      } ,
+      {
+        "typeName": "肉鱼禽蛋",
+        "menuContent": [ {
             "name": "多宝鱼",
             "src": "/pages/images/fish-02.jpg",
             "sales": 22,
@@ -109,14 +77,7 @@ Page({
           "rating": 3,
           "price": 4,
           "numb": 0
-        }, {
-            "name": "油",
-            "src": "/pages/images/rice-02.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 4,
-            "numb": 0
-          }]
+        } ]
       },
       {
         "typeName": "熟食面点",
@@ -206,7 +167,7 @@ Page({
         }]
       },
       {
-        "typeName": "进口商品",
+        "typeName": "零食",
         "menuContent": [{
           "name": "浆果",
           "src": "/pages/images/food-01.jpg",
@@ -215,18 +176,7 @@ Page({
           "price": 4,
           "numb": 0
         }]
-      },
-      {
-        "typeName": "母 婴",
-        "menuContent": [{
-          "name": "奶瓶",
-          "src": "/pages/images/feeder-01.jpg",
-          "sales": 22,
-          "rating": 3,
-          "price": 4,
-          "numb": 0
-        }]
-      }  
+      } 
     ],
     currentPage: 0,
     selected: 0,
