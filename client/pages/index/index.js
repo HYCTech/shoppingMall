@@ -10,173 +10,183 @@ Page({
   data: {
     //menu: [],
     menu: [{
-        "typeName": "蔬 菜",
+        "typeName": "夹 子",
         "menuContent": [{
-            "name": "娃娃菜",
-            "src": "/pages/images/im01-01.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 1,
-            "numb": 0
-          },
-          {
-            "name": "秋葵",
-            "src": "/pages/images/im01-02.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 10,
-            "numb": 0
-          },
-          {
-            "name": "苦瓜",
-            "src": "/pages/images/im01-03.jpg",
+            "name": "大夹子",
+            "src": "/pages/images/image_01_01.jpg",
             "sales": 22,
             "rating": 3,
             "price": 11,
             "numb": 0
           },
           {
-            "name": "玉米",
-            "src": "/pages/images/im01-04.jpg",
+            "name": "小夹子",
+            "src": "/pages/images/image_02_01.jpg",
             "sales": 22,
             "rating": 3,
-            "price": 32,
+            "price": 5,
             "numb": 0
-          } 
+          }, {
+            "name": "聂夹子",
+            "src": "/pages/images/image_03_01.jpg",
+            "sales": 22,
+            "rating": 3,
+            "price": 8,
+            "numb": 0
+          }, {
+            "name": "书夹子",
+            "src": "/pages/images/image_04_01.jpg",
+            "sales": 22,
+            "rating": 3,
+            "price": 12,
+            "numb": 0
+          }
         ]
-    },
-      {
-        "typeName": "母 婴",
+      }, {
+        "typeName": "本子",
         "menuContent": [{
-          "name": "奶瓶",
-          "src": "/pages/images/feeder-01.jpg",
+          "name": "红本子",
+          "src": "/pages/images/image_01_06.jpg",
           "sales": 22,
           "rating": 3,
-          "price": 4,
+          "price": 14,
+          "numb": 0
+        }, {
+          "name": "日记本",
+          "src": "/pages/images/image_02_06.jpg",
+          "sales": 22,
+          "rating": 3,
+          "price": 26,
+          "numb": 0
+        }, {
+          "name": "工作本",
+          "src": "/pages/images/image_03_06.jpg",
+          "sales": 22,
+          "rating": 3,
+          "price": 38,
           "numb": 0
         }]
-      } ,
+      },
       {
-        "typeName": "肉鱼禽蛋",
-        "menuContent": [ {
-            "name": "多宝鱼",
-            "src": "/pages/images/fish-02.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 4,
-            "numb": 0
-          }]
+        "typeName": "铅笔",
+        "menuContent": [{
+          "name": "铅笔",
+          "src": "/pages/images/image_01_03.jpg",
+          "sales": 22,
+          "rating": 3,
+          "price": 12,
+          "numb": 0
+        }]
       },
 
       {
-        "typeName": "粮油调味",
+        "typeName": "回形针",
         "menuContent": [{
-          "name": "大米",
-          "src": "/pages/images/rice-01.jpg",
+          "name": "回形针",
+          "src": "/pages/images/image_01_04.jpg",
           "sales": 22,
           "rating": 3,
-          "price": 4,
+          "price": 11,
           "numb": 0
-        } ]
+        }]
       },
       {
-        "typeName": "熟食面点",
+        "typeName": "剪 刀",
         "menuContent": [{
-          "name": "阳春面",
-          "src": "/pages/images/noodles-01.jpg",
+          "name": "剪刀",
+          "src": "/pages/images/image_01_05.jpg",
           "sales": 22,
           "rating": 3,
-          "price": 4,
+          "price": 8,
           "numb": 0
-        },{
-            "name": "鸡蛋面",
-            "src": "/pages/images/noodles-02.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 4,
-            "numb": 0
-          }]
+        }]
       },
       {
-        "typeName": "牛奶面包",
+        "typeName": "垃圾桶",
         "menuContent": [{
-          "name": "大面包",
-          "src": "/pages/images/milk-bread-01.jpg",
+          "name": "垃圾桶",
+          "src": "/pages/images/image_01_02.jpg",
           "sales": 22,
           "rating": 3,
-          "price": 4,
+          "price": 27,
+          "numb": 0
+        }]
+      },
+
+      {
+        "typeName": "转笔刀",
+        "menuContent": [{
+          "name": "转笔刀",
+          "src": "/pages/images/image_01_07.jpg",
+          "sales": 22,
+          "rating": 3,
+          "price": 9,
           "numb": 0
         }, {
-            "name": "小面包",
-            "src": "/pages/images/milk-bread-02.jpg",
+            "name": "铅笔刀",
+            "src": "/pages/images/image_02_07.jpg",
             "sales": 22,
             "rating": 3,
-            "price": 4,
+            "price": 25,
             "numb": 0
           }]
       },
       {
-        "typeName": "宠物商品",
+        "typeName": "铅笔刀",
         "menuContent": [{
-          "name": "狗粮",
-          "src": "/pages/images/dog-food-01.jpg",
+          "name": "铅笔刀",
+          "src": "/pages/images/image_01_08.jpg",
           "sales": 22,
           "rating": 3,
-          "price": 4,
-          "numb": 0
-        },{
-            "name": "磨牙棒",
-            "src": "/pages/images/dog-food-02.jpg",
-            "sales": 22,
-            "rating": 3,
-            "price": 4,
-            "numb": 0
-          }]
-      },
-      {
-        "typeName": "休闲零食",
-        "menuContent": [{
-          "name": "巧克力",
-          "src": "/pages/images/chocolates-01.jpg",
-          "sales": 22,
-          "rating": 3,
-          "price": 4,
+          "price": 15,
           "numb": 0
         }]
       },
       {
-        "typeName": "日用清洁",
+        "typeName": "订书机",
         "menuContent": [{
-          "name": "毛巾",
-          "src": "/pages/images/detergent-02.jpg",
+          "name": "订书机",
+          "src": "/pages/images/image_01_09.jpg",
           "sales": 22,
           "rating": 3,
-          "price": 4,
+          "price": 32,
           "numb": 0
         }]
-      },
-      {
-        "typeName": "护理美妆",
-        "menuContent": [{
-          "name": "修眉刀",
-          "src": "/pages/images/hairdressing-01.jpg",
-          "sales": 22,
-          "rating": 3,
-          "price": 4,
-          "numb": 0
-        }]
-      },
-      {
-        "typeName": "零食",
-        "menuContent": [{
-          "name": "浆果",
-          "src": "/pages/images/food-01.jpg",
-          "sales": 22,
-          "rating": 3,
-          "price": 4,
-          "numb": 0
-        }]
-      } 
+      }
+      // ,
+      // {
+      //   "typeName": "日用清洁",
+      //   "menuContent": [{
+      //     "name": "毛巾",
+      //     "src": "/pages/images/detergent-02.jpg",
+      //     "sales": 22,
+      //     "rating": 3,
+      //     "price": 4,
+      //     "numb": 0
+      //   }]
+      // },
+      // {
+      //   "typeName": "护理美妆",
+      //   "menuContent": [{
+      //     "name": "修眉刀",
+      //     "src": "/pages/images/hairdressing-01.jpg",
+      //     "sales": 22,
+      //     "rating": 3,
+      //     "price": 4,
+      //     "numb": 0
+      //   }]
+      // },
+      // {
+      //   "typeName": "零食",
+      //   "menuContent": [{
+      //     "name": "浆果",
+      //     "src": "/pages/images/food-01.jpg",
+      //     "sales": 22,
+      //     "rating": 3,
+      //     "price": 4,
+      //     "numb": 0
+      //   }]
+      // }
     ],
     currentPage: 0,
     selected: 0,
@@ -299,8 +309,8 @@ Page({
     var id = options.selectedId;
     console.log(id + "<----");
 
-    var w = wx.getSystemInfoSync().windowWidth;//屏幕宽
-    var h = wx.getSystemInfoSync().windowHeight;//屏幕高
+    var w = wx.getSystemInfoSync().windowWidth; //屏幕宽
+    var h = wx.getSystemInfoSync().windowHeight; //屏幕高
     console.log("w:" + w + "H:" + h);
 
     this.setData({

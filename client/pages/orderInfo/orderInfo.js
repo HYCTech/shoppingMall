@@ -12,8 +12,8 @@ Page({
     orderTime:"2018-8-31 09:01:20",
     orderList: [{
         id:1,
-        name: "娃娃菜",
-        src: "/pages/images/im01-01.jpg",
+        name: "本子",
+      src: "/pages/images/image_01_06.jpg",
         sales: 22,
         rating: 3,
         price: 1,
@@ -21,8 +21,8 @@ Page({
       },
       {
         id:2,
-        name: "秋葵",
-        src: "/pages/images/im01-02.jpg",
+        name: "夹子",
+        src: "/pages/images/image_01_01.jpg",
         sales: 22,
         rating: 3,
         price: 10,
@@ -30,8 +30,8 @@ Page({
       },
       {
         id:3,
-        name: "苦瓜",
-        src: "/pages/images/im01-03.jpg",
+        name: "剪刀",
+        src: "/pages/images/image_01_05.jpg",
         sales: 22,
         rating: 3,
         price: 11,

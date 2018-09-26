@@ -7,33 +7,35 @@ Page({
   data: {
     orderList: [{
       id: 1,
-      img: "/pages/images/im01-01.jpg",
+      img: "/pages/images/image_01_06.jpg",
       price: "32",
       date: "2018-07-14",
       time: "12:29:12",
       howToDistribute: "商家"
     }, {
       id: 2,
-      img: "/pages/images/im01-04.jpg",
+        img: "/pages/images/image_01_01.jpg",
       price: "12",
       date: "2018-08-24",
       time: "12:29:12",
       howToDistribute: "商家"
-    }, {
-      id: 2,
-      img: "/pages/images/im01-02.jpg",
-      price: "22",
-      date: "2018-08-25",
-      time: "12:29:12",
-      howToDistribute: "商家"
-    }, {
-      id: 3,
-      img: "/pages/images/im01-03.jpg",
-      price: "14",
-      date: "2018-08-28",
-      time: "12:29:12",
-      howToDistribute: "商家"
-    }, ]
+    }
+    // , {
+    //   id: 2,
+    //   img: "/pages/images/im01-02.jpg",
+    //   price: "22",
+    //   date: "2018-08-25",
+    //   time: "12:29:12",
+    //   howToDistribute: "商家"
+    // }, {
+    //   id: 3,
+    //   img: "/pages/images/im01-03.jpg",
+    //   price: "14",
+    //   date: "2018-08-28",
+    //   time: "12:29:12",
+    //   howToDistribute: "商家"
+    // }, 
+    ]
   },
   goInfo: function(e) {
     console.log("--------------");

@@ -14,6 +14,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "便利店",
+    "navigationBarTitleText": "汇小商",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -33,7 +34,7 @@
         "pagePath": "pages/order/order",
         "iconPath": "pages/images/order.png",
         "selectedIconPath": "pages/images/order-selected.png",
-        "text": "订单"
+        "text": "详情"
       },
       {
         "pagePath": "pages/my/my",

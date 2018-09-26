@@ -3,7 +3,7 @@
     <view class="item-a">时间： {{orderTime}}</view>
     <view class="item-b">编号：{{orderNumber}} </view>
     <view class="item-c">
-      <view class="l">实付：
+      <view class="l">总价：
         <text class="cost">￥{{priceSum}}</text>
       </view>
     </view>

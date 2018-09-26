@@ -36,7 +36,7 @@
 
     <!-- <view class="coupon">红包</view> -->
     <view class="address"> 我的地址</view>
-    <view class="tel"> 客服电话: 暂无</view>
+    <view class="tel"> 联系电话</view>
     <!-- <view class="signOut">退出账号</view> -->
   </view>
 

@@ -36,7 +36,7 @@
 }
 .order-content-restaurantImg{
   width: 200rpx;
-  height: 125rpx;
+  height: 145rpx;
 }
 .order-content-info{
   font-size: 25rpx;

@@ -4,9 +4,9 @@ var app = getApp()
 Page({
   data: {
     imgUrls: [
-      '/pages/images/tooopen_sy_01.jpg',
+      '/pages/images/tooopen_sy_03.jpg',
       '/pages/images/tooopen_sy_02.jpg',
-      '/pages/images/tooopen_sy_03.jpg'
+      '/pages/images/tooopen_sy_01.jpg'
     ],
     indicatorDots: true,
     autoplay: true,
@@ -14,53 +14,58 @@ Page({
     duration: 1000,
     navItems: [
       {
-        name: '蔬 菜',
-        url: '/pages/images/start-01.png'
+        name: '夹 子',
+        url: '/pages/images/image_01_01.png'
       },
       {
-        name: '母 婴',
-        url: '/pages/images/start-12.png',
+        name: '本 子',
+        url: '/pages/images/image_01_06.png',
         isSplot: true
       },
       {
-        name: '肉鱼禽蛋',
-        url: '/pages/images/start-03.png'
+        name: '铅 笔',
+        url: '/pages/images/image_01_03.png'
       },
       {
-        name: '粮油调味',
-        url: '/pages/images/start-04.png'
+        name: '回形针',
+        url: '/pages/images/image_01_04.png'
       },
       {
-        name: '熟食面点',
-        url: '/pages/images/start-05.png',
+        name: '剪 刀',
+        url: '/pages/images/image_01_05.png',
         isSplot: true
       },
       {
-        name: '牛奶面包',
-        url: '/pages/images/start-06.png'
+        name: '垃圾桶',
+        url: '/pages/images/image_01_02.png'
+
       },
+       
       {
-        name: '宠物商品',
-        url: '/pages/images/start-07.png'
-      },
+        name: '转笔刀',
+        url: '/pages/images/image_01_07.png'
+      }
+      ,
       {
-        name: '休闲零食',
-        url: '/pages/images/start-08.png',
+        name: '铅笔刀',
+        url: '/pages/images/image_01_08.png',
         isSplot: true
       },
       {
-        name: '日用清洁',
-        url: '/pages/images/start-09.png'
-      },
-      {
-        name: '护理美妆',
-        url: '/pages/images/start-10.png'
-      },
-      {
-        name: '零食',
-        url: '/pages/images/start-11.png', 
-        isSplot: true
-      } 
+        name: '订书机',
+        url: '/pages/images/image_01_09.png'
+      }
+      // ,
+      // {
+      //   name: '护理美妆',
+      //   url: '/pages/images/start-10.png'
+      // }
+      //,
+      // {
+      //   name: '零食',
+      //   url: '/pages/images/start-11.png', 
+      //   isSplot: true
+      // } 
     ]
   },
   //点击结算按钮
